@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+span
+{
+	color: deepskyblue;
+}
+
+h2
+{ 
+	margin:10%;
+}
+
+#warp
+{
+	margin:10% 10% 0 10%;
+}
+
+
+#textinput
+{
+	width:1000px;
+	height:150px;
+	font-size :15px;
+}
+
+#postButton
+{ 
+	margin-left:950px;
+	background-color:lightblue;
+	font-size: 15px;
+    margin-top:20px;
+}
+
+#postarea
+{
+
+	margin-left: 10%;
+}
+
+#Div1
+{
+	color:red;
+	margin: 0px;
+	
+}
+		
+
+#show
+{
+	color:red;
+	margin: 0px;
+		
+}
+
+p
+{
+		margin-left:130px;
+}
