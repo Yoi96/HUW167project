@@ -19,9 +19,10 @@ h2
 
 #textinput
 {
-	width:1000px;
+	width:920px;
 	height:150px;
 	font-size :15px;
+	margin-left: 120px;
 }
 
 #postButton
@@ -35,7 +36,7 @@ h2
 #postarea
 {
 
-	margin-left: 10%;
+	margin-left: 18%;
 }
 
 #Div1
@@ -55,5 +56,5 @@ h2
 
 p
 {
-		margin-left:130px;
+		margin-left:270px;
 }
