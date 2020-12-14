@@ -13,7 +13,7 @@ h2
 
 #warp
 {
-	margin:10% 10% 0 10%;
+	margin:10% 10% 0% 10%;
 }
 
 
@@ -29,14 +29,14 @@ h2
 { 
 	margin-left:950px;
 	background-color:lightblue;
-	font-size: 15px;
-    margin-top:20px;
+	font-size:15px;
+        margin-top:20px;
 }
 
 #postarea
 {
 
-	margin-left: 18%;
+	margin-left:18%;
 }
 
 #Div1
@@ -56,5 +56,5 @@ h2
 
 p
 {
-		margin-left:270px;
+	margin-left:270px;
 }
