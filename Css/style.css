@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
-
+body
+{
+   	
+	margin: 0px; 
+	padding: 0px; 
+}
 span
 {
 	color: deepskyblue;
@@ -9,41 +14,48 @@ span
 h2
 { 
 	margin:10%;
+        text-align:left; 
 }
 
 #warp
 {
-	margin:10% 10% 0% 10%;
+	
+        text-align:center; 
+	margin: auto; 
+	padding: auto;
+	width:950px;
+        hight:auto;
 }
 
 
 #textinput
 {
-	width:920px;
+	width:750px;
 	height:150px;
 	font-size :15px;
-	margin-left: 200px;
+	
 }
 
 #postButton
 { 
-	margin-left:950px;
+	margin-left:660px;
 	background-color:lightblue;
-	font-size:15px;
-        margin-top:20px;
+	font-size: 15px;
+    	margin-top:20px;
 }
 
 #postarea
 {
 
-	margin-left:18%;
+	margin-left:30%;
+	text-align:left;
 }
 
 #Div1
 {
 	color:red;
 	margin: 0px;
-	
+	text-align:left;
 }
 		
 
@@ -51,10 +63,16 @@ h2
 {
 	color:red;
 	margin: 0px;
+        text-align:left;
 		
 }
 
+
+
+
 p
 {
-	margin-left:270px;
+	text-align:left; 
+        margin-left:400px;
+        
 }
