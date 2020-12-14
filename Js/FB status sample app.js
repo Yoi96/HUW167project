@@ -26,7 +26,7 @@ function post()
 		var like = document.createElement('p');
 		like.setAttribute("id", "Div1");
 
-		var likeText = document.createTextNode('like');
+		var likeText = document.createTextNode(' LIKE ');
 		like.appendChild(likeText);
 		document.body.appendChild(like);
 		like.addEventListener("click", likeCounter);
