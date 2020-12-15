@@ -1,78 +1,93 @@
 @charset "utf-8";
 /* CSS Document */
+
 body
 {
-   	
-	margin: 0px; 
-	padding: 0px; 
-}
-span
-{
-	color: deepskyblue;
-}
-
-h2
-{ 
-	margin:10%;
-        text-align:left; 
+	margin:0px;
+	padding:0px;
 }
 
 #warp
 {
 	
-        text-align:center; 
-	margin: auto; 
-	padding: auto;
-	width:950px;
-        hight:auto;
+	width: 780px;
+	padding:0px;
+	clear: both;
+	margin:0px auto;
+	height:500px;
+
 }
 
+#warp_head
+{
+	width: 780px;
+	height:100px;
+	margin:0px;
+	padding:0px;
+  
+}
+
+#warp_text
+{
+	width: 780px;
+	height:400px;
+	margin:0px;
+	padding:0px;
+  
+}
+
+
+span
+{
+        color:#6495ED;
+}
+
+#says{
+		width:780px;
+		height: 200px;
+		position: absolute;
+	}
 
 #textinput
 {
-	width:750px;
-	height:150px;
-	font-size :15px;
-	
+	width:780px;
+	height: 150px;
+	overflow: hidden;
 }
 
 #postButton
-{ 
-	margin-left:660px;
-	background-color:lightblue;
-	font-size: 15px;
-    	margin-top:20px;
-}
-
-#postarea
 {
-
-	margin-left:30%;
-	text-align:left;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	background-color:#6495ED;
+	color:white;
+	border:none;
+	width:70px;
+	height: 30px;
 }
 
-#Div1
+#demo
 {
-	color:red;
-	margin: 0px;
-	text-align:left;
+	width:780px;
+	height:auto;
+	margin:0px auto;
+	
 }
-		
-
-#show
-{
-	color:red;
-	margin: 0px;
-        text-align:left;
-		
-}
-
-
-
 
 p
 {
-	text-align:left; 
-        margin-left:400px;
-        
+	color:red;
+}
+
+#deme_text
+{
+    color:#6495ED;
+}
+
+#likebutton
+{	background-color:orange;
+	color:white;
+	border:none;
+  	margin-right:30px;
 }
