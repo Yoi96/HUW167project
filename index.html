@@ -1,35 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>HUW167 Final Project FB status sample app</title>
+<title>index</title>
 <link rel="stylesheet" type="text/css" href="Css/style.css" />
-	
-<script src="Js/FB status sample app.js"></script>
 </head>
 
 <body>
-<div id = "warp">
-<h2> Nobody likes your <span>facebook</span> status? Worry not! Self service is always appreciated. Now you can like your own status for unlimited time! (Thank me later ;)</h2>
 
-
-
-	<input id ="textinput" placeholder = "What's in your mind ;)">
-	<br>
-
-	<button onClick = "post()" id = "postButton"> post</button> 
-	<br>
-	<br>
+<div id="warp">
 	
-
-</div>	
-
-
-
-<div id = "postarea">
+	<div id="warp_head">
+		<h3>Nobody likes your <span>facebook</span> status? 
+                    Worry not! Self service is always appreciated. <br> 
+                    Now you can like your own status for unlimited time! (Thank me later ;)</h3>
+  </div>
 	
-	<p id ="show" ></p><br>
-        
+	<div id="warp_text">
+	
+		<div id="says">
+		<input id ="textinput" placeholder = "What's in your mind :)" >
+		
+		<button onclick = "postfuntion()" id = "postButton" > Post</button> 
+		
+		</div>
+		
+		
+	
+	</div>
+	
+	     
 </div>
+  
+  <div id="demo">
+	<p id="deme_count"></p> 
+	<p id="deme_text"></p>
+  </div> 
+  
+	
+<script type="text/javascript">
+	var postButton = document.getElementById("postButton");
+	
+	function postfuntion()
+	{
+        
+		var postButton = document.getElementById("postButton");
+		var x = document.getElementById("textinput").value;
+                var y = document.getElementById("deme_count");
+              
+		if (x.length==0 )
+		{ 
+			alert('you have to write a status!');
+  			
+		}
+
+		else 
+		{ 	
+			       
+			
+
+			document.getElementById("deme_text").innerHTML +=  x + 
+			'  <button type="button" onClick="clickME()" id="likebutton"> LIKE </button>';
+
+		}
+	}
+
+  
+	
+</script>
+
+<script type="text/javascript">
+
+ var y = document.getElementById("deme_count");
+ document.getElementById("deme_text").innerHTML= '<p><a id="clicks">0</a> people like your comment!</p>';
+
+	var clicks = 0;
+	function clickME() 
+	{
+       	 	clicks += 1;
+        	document.getElementById("clicks").innerHTML = clicks;
+ 	}
+
+ 
+</script>
+
 </body>
 </html>
